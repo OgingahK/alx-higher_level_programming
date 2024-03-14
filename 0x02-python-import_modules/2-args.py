@@ -10,7 +10,7 @@ if __name__=="__main":
         for index in range(1, len_args + 1):
             print("{}: {}".format(index, args[index]))
     elif len_args == 0:
-            print("{} arguments:".format(index, args[index]))
+            print("{} arguments:".format(len_args))
     else:
         print("{} argument:".format(index))
         print("{}: {}".format(len_args, args[1]))
